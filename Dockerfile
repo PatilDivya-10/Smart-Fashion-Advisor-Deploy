@@ -11,6 +11,5 @@ COPY requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . /app
-libgl1
-libglib2.0-0
+
 CMD ["python", "app.py"]
